@@ -21,8 +21,15 @@ table {
 	color: #fff
 }
 
-th, td {
+th, td, tr {
 	text-align: left;
 	margin: 5px 10px;
 	padding: 6px;
 }
+#data-row:nth-child(even) {
+	background-color: #4f8cdb;
+  }
+
+#data-row:nth-child(odd) {
+	background-color: #41f70a;
+  }
